@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about me</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+              body{
+             background-color:#f8fafc;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+        }
+     .nav {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            margin-top: 1px;
+            padding: 20px;
+        
+            margin-left: 30pc;
+            text-decoration: underline;
+        }
+        .nav a {
+            text-transform: uppercase;
+            font-size: 20px;
+            font-family: sans-serif;
+            text-decoration: none;
+            color: black;
+            margin-left: 80px;
+            justify-content: space-around;
+            padding: 2px;
+            margin-top: 5%;
+            margin-left: 56px;
+            margin:20px;
+            
+        }
+
+        .nav li {
+            list-style: none;
+        }
+
+        .nav a:hover {
+            color: rgb(64, 11, 163);
+            padding: 10px 15px;
+        }
+
+         .img{
+        display: flex;
+              animation: glow 8s ease-in-out infinite alternate;
+        }
+
+        @keyframes glow {
+            from { text-shadow: 0 0 10px rgb(20, 127, 177); }
+            to { text-shadow: 0 0 20px #fff; }
+        }
+
+        .img img{
+        width: 250px;
+        border-radius: 50%;
+        height: 250px;
+        object-fit: cover;
+    border: 4px solid #2563eb;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+        .img figure h2{
+            text-transform: uppercase;
+            font-size: 20px;
+                    color:blue;
+                            margin-top: 60px;
+        }
+       .img figure figcaption{
+        font-size: 22px;
+        color: blue;
+        text-transform: capitalize;
+        margin-top: -1px;
+       }
+       .img figure p{
+        font-size: 18px;
+        color: blue;
+                margin-top: -2px;
+                font-size: 20px;
+       }
+       .button{
+        margin-left: 3pc;
+        gap: 1rem;
+    margin-top: 1.5rem;
+       }
+       .button button{
+        width: 10pc;
+        height: 2pc;
+       }
+
+       .button span{
+        font-size: 18px;
+        text-transform: capitalize;
+       }
+       .button button:hover{
+        background-color: blue;
+        color: white;
+       }
+       .button button a{
+        text-decoration: none;
+        color:  black;
+       }
+        .button button a:hover{
+        background-color: blue;
+        color: white;
+       }
+       .beb h2{
+        text-align: center;
+        text-transform: capitalize;
+        margin-top: 5pc;
+        background-color: #2563eb;
+        list-style: 20px;
+        font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 29px;
+    
+       }
+
+          .beb p{
+        text-align: center;
+        font-size: 22px;
+        color: blue;
+       }
+
+       .span{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+       }
+.span p{
+    width: 30vh;
+    height: 8vh;
+    justify-content: center;
+    border: 1px solid black;
+    margin-top: -1px;
+    align-items: center;
+text-transform: capitalize;
+border-radius: 3px;
+display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #ffffff;
+    color: #2563eb;
+    padding: 0.75rem 1.5rem;
+    border: 2px solid #2563eb;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.span p:hover{
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
+.back{
+    background-color: blue;
+    height: 30vh;
+    margin-top: 7pc;
+}
+.phone h3{
+    text-transform: uppercase;
+    margin-left: 15px;
+    
+    color: white;
+}
+.phone p{
+    text-transform: capitalize;
+    color: white;
+      margin-left: 12px;
+      margin-top: -12px;
+}
+ .phone figure{
+    display: flex;
+ }
+ .phone figcaption{
+    gap: 2px;
+    justify-content: space-between;
+     color: white;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 1pc;
+ }
+ .b{
+    margin-left: 50pc;
+    margin-top: -9pc;
+ }
+ .b h4{
+        text-transform: uppercase;
+    margin-left: 39px;
+    color: white;
+}
+ .b ul li{
+      text-decoration: none;
+    font-weight: 600;
+    justify-content: space-between;
+     color: white;
+ }
+ @media screen and (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 15px;
+    }
+    .nav img {
+        float: none;
+        margin-right: 0;
+        height: 60px;
+    }
+    .nav a {
+        margin-left: 0;
+        margin-top: 0;
+        font-size: 18px;
+    }
+    .img img {
+        height: 200px;
+        width: 200px;
+    }
+    .img hr {
+        width: 80% !important;
+    }
+    .span {
+        flex-direction: column;
+        gap: 10px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .button {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+    .button button {
+        width: 80%;
+        padding: 10px;
+    }
+}
+       
+
+       
+        </style>
+    
+</head>
+<body>
+         <ul class="nav">
+     <li> <a href="index.html">home</a></li>
+     <li> <a href="about me.html">contact</a></li>
+       <li><a href="portfolio.html">portfolio</a></li>
+       <li><a href="about me.html">services</a></li>
+       </ul>
+
+
+       <div class="img">
+       
+       <figure>
+         <h2>hey!am erick</h2>
+       <figcaption>a little bit of me</figcaption>
+       <p>I work as a freelancer in graphic design,network engineer and a software developer..<br>
+       I create digital quality products that can enable your business grow and run smoothly.<br>
+       During my free time I enjoy socializing and making new friends.also a fan of coding and reading novels
+       </p>
+       </figure>
+        <img src="eer.jpg">
+       </div>
+
+<div class="button">
+       <button><span class="fa fa-pencil" style="font-size: 18px;"><a href= "C:\Users\moherai\Documents\curriculum vitae.txt" download>curriculum vitae</a></span></button>
+     <button><span class="fa fa-book" style="font-size: 18px;">projects</span></button>
+         <button><span class="fa fa-file-o" style="font-size: 18px;">skills</span></button>
+       </div>
+<div class="beb">
+       <h2>skills and academic qualification</h2>
+       <p>Currently a graduate from nairobi institute holding a higher diploma in ict technician<br>
+        Also holds a certificate in ICDL and computer applications from shining hope for community.<br>
+        Am well equipped with digital skills and marketing techniques that are required in busines navigation</p>
+    </p>
+    </div>
+
+
+       <div class="span">
+       <p><span class="fa fa-wifi" style="font-size: 19px">network engineer</span></p>
+        <p><span class="fa fa-tv" style="font-size: 19px;">graphic designer</span></p>
+         <p><span class="fa fa-laptop" style="font-size: 19px;">website developer</span></p>
+          <p><span class="fa fa-excel-o" style="font-size: 19px;">ICDL Certified</span></p>
+           <p><span class="fa fa-database" style="font-size: 19px;">software engineer</span></p>
+           </div>
+
+           <div class="back">
+        
+<div class="phone">
+           <h3>contact us</h3>
+           <p>you can get intouch with me via below channels.<br>
+            am always available for long and short term freelancing jobs pertaining technology matters.
+        </p>
+<figure>
+    <figcaption><span class="fa fa-envelope-o"></span>erickmoherai@gmail.com</figcaption>
+        <figcaption><span class="fa fa-facebook"></span>erick moherai</figcaption>
+        <figcaption><span class="fa fa-phone"></span>0115778582</figcaption>
+</figure>
+
+<div class="b">
+<h4>why choose me</h4>
+<ul>
+    <li>Creative and problem solver</li>
+     <li>Focuses on results</li>
+      <li>Time concious</li>
+</ul>
+</div>
+</div>
+</div>
+</body>
+</html>
